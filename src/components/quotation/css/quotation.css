@@ -1,0 +1,192 @@
+.title {
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.select-year {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  /* padding-left: 30px; */
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: none !important;
+}
+
+.pagination {
+  /* display: inline-block; */
+}
+
+.pagination a {
+  color: black;
+  /* float: left; */
+  /* padding: 8px 16px; */
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.view-as-select {
+  min-width: 120px;
+}
+
+.quatation-button:hover,
+.quatation-button:visited,
+.quatation-button:link {
+  text-decoration: none;
+  color: #fff;
+  padding-top: 12px;
+}
+
+.quatation-button:active {
+  transform: scale(0.98);
+}
+
+.content-make-quotation {
+  margin-left: 0 !important;
+}
+
+.modal-icons {
+  width: 1.2rem;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.chekbox-quote {
+  display: flex;
+  flex-direction: column;
+}
+
+.ant-checkbox-input::before {
+  display: none;
+}
+
+.make-quotation-checkbox{  
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.make-quotation-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 36px;
+  width: 36px;
+  background-color: #fff;
+  border: 1px solid #D5D5D5;
+  border-radius: 6px;
+}
+.make-quotation-checkbox input:checked ~ .checkmark {
+  background-color: #8d131e;
+  border: 1px solid #8d131e;
+  border-radius: 6px;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.make-quotation-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.make-quotation-checkbox .checkmark:after {
+  left: 14px;
+  top: 9px;
+  width: 7px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* .make-quotation-checkbox .checkmark::before {
+  left: 14px;
+  top: 9px;
+  width: 7px;
+  height: 12px;
+  border: solid red !important;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+} */
+
+.message-field-margin {
+  margin-top: 0px !important;
+}
+
+@media (max-width: 753px) {
+  .message-field-margin {
+    margin-top: 2rem !important;
+  }
+}
+
+
+
+
+
+
+/* .ant-checkbox-inner {
+  width: 3rem !important;
+  height: 2.5rem !important;
+  border: 1px solid #dbdbdb;
+}
+
+.ant-checkbox-inner::after {
+  width: 0.7rem !important;
+  margin-left: 0.3rem;
+  height: 1.2rem !important;
+} */
+.quatation-checkbox {
+  height: 1rem !important;
+  width: 1rem !important;
+}
+
+/* .ant-collapse-borderless>.ant-collapse-item>.ant-collapse-content */
+.ant-collapse-borderless .ant-collapse-item .ant-collapse-content{
+  background-color: #ffffff !important;
+}
+
+.ant-collapse-borderless .ant-collapse-item .ant-collapse-header{
+  background-color: #ffffff !important;
+  padding-left: 0px !important;
+}
+
+.ant-collapse-content-box {
+  padding-left: 0px !important;
+}
+
+/* @media (min-width: 576px) {
+  .modal-text .modal-dialog {
+    max-width: 565px !important;
+    margin: 1.75rem auto;
+  }
+} */

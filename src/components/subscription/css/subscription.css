@@ -1,0 +1,42 @@
+.bottom-panel {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.premium-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0px;
+  margin-top: 16px;
+}
+
+.subscription-box-shadow {
+  background: #ffffff;
+  box-shadow: 0px 5px 15px rgba(243, 107, 107, 0.2);
+  border-radius: 14px;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+
+.sub-btn {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-btn-content {
+  margin-top: 0.75rem;
+}
+
+.sub-p {
+  color: #8d131e;
+  padding-right: 0.75rem;
+}
+
+.sub-btn-content a:hover{
+  color: #8d131e;
+}

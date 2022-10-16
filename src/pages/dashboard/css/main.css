@@ -1,0 +1,41 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.dashboard-body {
+  background-color: #e5e5e5;
+}
+
+.sidebar {
+  border-width: 2px;
+  /* border-color: black; */
+  z-index: 1000;
+  transition: all 0.4s ease 0s;
+}
+
+.sidebar-wrapper {
+  margin-left: -250px;
+  top: 51px;
+  left: 250px;
+  width: 250px;
+  background: #000;
+  position: fixed;
+  height: 100%;
+  /* overflow-y: auto; */
+}
+
+.sidebar-menu {
+  height: 50px;
+  align-content: center;
+  background: #454f63;
+  color: #ffffff;
+  border-radius: 6px;
+  margin: 10px 0 10px 0;
+}
+
+#menu-toggle {
+  text-decoration: none;
+  float: left;
+  color: #fff;
+  padding-right: 15px;
+}

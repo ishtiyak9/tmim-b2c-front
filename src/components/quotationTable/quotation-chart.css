@@ -1,0 +1,35 @@
+
+.select-option-quotation-chart {
+    margin-top: 8px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #303443;
+    width: 135px;
+    appearance: none;
+    padding: 12px 12px;
+    border: 1px solid #D5D5D5;
+    border-radius: 10px;
+    outline: none;
+    background: transparent url("../../assets/icons/arrow-down.svg") no-repeat 102px center;
+  }
+
+
+.select-option-quotation-chart-rtl {
+    margin-top: 8px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #303443;
+    width: 135px;
+    appearance: none;
+    padding: 12px 12px;
+    border: 1px solid #D5D5D5;
+    border-radius: 10px;
+    outline: none;
+    background: transparent url("../../assets/icons/arrow-down.svg") no-repeat 10px center;
+  }

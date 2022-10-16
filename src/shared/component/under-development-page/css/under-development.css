@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.construction-dev{
+    margin-top: 80px;
+}
+
+
+.construction-content{
+    margin: auto auto;
+    text-align: center;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  font-size: 48px;
+  font-weight: 600px;
+  color: lightskyblue;
+  letter-spacing: 1px;
+  /* background-image: linear-gradient(to bottom right, #8d131e, rgba(196, 85, 71, 0.678)
+ , green, blue, indigo, violet); */
+
+ background: url(../../../../assets/images/coming-soon.jpeg);
+ /* background-position: center; */
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+}

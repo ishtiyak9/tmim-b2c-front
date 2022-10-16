@@ -1,0 +1,29 @@
+variables:
+  GIT_CLEAN_FLAGS: none # disable git clean *** this is important ***
+
+stages:
+  - build
+  - deploy
+
+default:
+  before_script:
+    - export PATH="$PATH:/home/.nvm/versions/node/v16.8.0/bin"
+
+build:
+  stage: build
+  only:
+    - dev
+  script:
+    - npm --version
+    - npm install
+    - npm run build
+    - echo "Building successfully :)"
+
+deploy:
+  stage: deploy
+  only:
+    - dev
+  script:
+    - pwd
+    - cp -r build/. /var/www/html
+    - echo "Deployed successfully :)"

@@ -1,0 +1,28 @@
+.ant-table-row-level-0 {
+    background: #ffffff;
+    box-shadow: 0px 5px 15px rgba(243, 107, 107, 0.2);
+    border-radius: 14px;
+}
+
+.payment-history-box-shadow .ant-table-row-level-0 {
+    box-shadow: none !important;
+    border-radius: 10px !important;
+    /* margin-bottom: 0.5rem !important; */
+}
+
+.payment-history-box-shadow .ant-table-row-level-0:hover {
+    box-shadow: none !important;
+    background: #ffffff !important;
+    border-radius: 10px !important;
+}
+
+.payment-history-table-cell {
+    padding: 0px 0px 0px 5px;
+    margin: 0px;
+}
+
+.payment-history-table-cell .ant-table-row .ant-table-row-level-0{
+    margin: 10px 0px !important;
+    padding: 10px 0px !important;
+}
+

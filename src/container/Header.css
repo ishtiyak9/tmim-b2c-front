@@ -1,0 +1,281 @@
+.header-shadow {
+  box-shadow: 0px 2px 10px -6px #8d131e;
+}
+
+/* .brand-img {
+  width: 150px;
+  height: 40px;
+  background: url(../assets/images/brand_img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+} */
+
+/* .bell-icon {
+  width: 30px;
+  height: 30px;
+  background: url(../assets/images/notification.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  margin-right: 1.2rem;
+} */
+
+select {
+  border: none;
+  background: #f8f9fa;
+}
+
+.select-div {
+  display: inline-block;
+  position: relative;
+  margin-top: -4px;
+  /* padding-bottom: 10px !important; */
+}
+
+.content-right {
+  float: right;
+  margin-right: 10%;
+  margin-top: 5px;
+}
+
+.content-left {
+  /* float: right; */
+  margin-left: -7%;
+  /* margin-top: 5px; */
+}
+
+.header-box {
+  /* width: 90%; */
+  /* margin: auto auto; */
+  /* padding: 10px 0px; */
+  background-color: #f8f9fa;
+  overflow: hidden;
+  /* margin-left:-22px; */
+  margin-left:0px;
+  /* background-color: #f1f1f1; */
+  padding: 10px 10px;
+}
+
+.header-right {
+  /* float: right; */
+  /* padding-right: 7rem !important; */
+  padding-top: 2px  !important;
+
+  width:200px;
+  /* margin-right: auto; */
+}
+
+.notification-icon-margin {
+  margin-left: 8.5rem;
+}
+
+.logout {
+  float: right !important;
+  display: inline;
+  padding-top: 5px;
+}
+
+.logout-btn {
+  /* border: 1px solid #8d131e; */
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 6px;
+  color: #8d131e;
+}
+
+.logout-btn:hover {
+  background-color: #8d131e;
+  color: #f8f9fa;
+}
+
+.en-flag {
+  width: 100%;
+  height: 100%;
+  background: url(../assets/images/cover-img.svg);
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+
+.overlayCustomClass{
+  width: 60vh;
+}
+
+
+@media screen and (max-width: 480px) {
+  .overlayCustomClass {
+    width: 40vh !important;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .overlayCustomClass {
+    width: 60vh !important;
+  }
+}
+
+/* @media screen and (min-width: 1024px) {
+  .overlayCustomClass {
+    width: 40vh !important;
+  }
+} */
+
+@media screen and (min-height: 1280px) {
+  .overlayCustomClass {
+    width: 40vh !important;
+  }
+}
+/* @media (min-width: 1025px) and (max-height: 1280px) {
+  .overlayCustomClass {
+    width: 40vh !important;
+  }
+} */
+
+/* @media screen and (min-width: 1025px), screen and (min-height: 1280px) {
+  .overlayCustomClass {
+    width: 40vh !important;
+  }
+} */
+
+/* @media screen and (max-width: 375px) {
+
+  .header-box{
+    padding: 10px 0px 10px 0px;
+  }
+  .overlayCustomClass{
+    width: 45vh;
+  }
+
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+  .header-box{
+    padding: 10px 0px 10px 0px;
+  }
+
+  .overlayCustomClass{
+    width: 41vh;
+  }
+} */
+
+
+
+/* 
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+  }
+} */
+
+.ant-popover {
+  height: 10px;
+}
+
+.notification-content {
+  max-height: 25rem;
+  /* overflow: auto; */
+  overflow-x:hidden;
+  position: relative;
+}
+
+.unread {
+  width: 8px;
+  height: 8px;
+  background: #fd5454;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  left: 24rem;
+  bottom: 2.5rem;
+}
+
+.notification-header {
+  padding-top: 0.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(48, 52, 67, 0.1);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #303443;
+}
+
+.notification-content__info {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgba(48, 52, 67, 0.1);
+  padding-bottom: 0.2rem;
+}
+
+.notification-content__info-title {
+  font-weight: 500;
+  font-size: 16px;
+
+  color: #303443;
+}
+
+.notification-content__info-title-body {
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(48, 52, 67, 0.6);
+  /* width: 20rem; */
+}
+
+.ant-popover-arrow-content {
+  display: none;
+}
+.ant-popover-inner {
+  background: #ffffff;
+  box-shadow: 0px 5px 20px rgba(243, 107, 107, 0.15);
+  border-radius: 10px;
+}

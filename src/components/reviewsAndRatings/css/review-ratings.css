@@ -1,0 +1,58 @@
+.review-modal-header-date {
+    color: rgba(48, 52, 67, 0.4);
+}
+
+.review-modal-image {
+    border-radius: 20px !important;
+    border: 1px solid #D5D5D5;
+}
+
+.review-modal-title-box {
+    /* pl-2 mt-auto mb-auto */
+    padding-left: 0.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.review-modal-title {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.review-modal-sub-title {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #8D131E;
+}
+
+.review-modal-text {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.review-rating-border{
+    border-bottom: 1px solid #D5D5D5;
+    margin: 20px 0px 0px 0px ;
+    display: block;
+}
+
+/* @media (max-width: 993px) {
+    .review-modal-title-box {
+        padding-left: 1rem !important;
+    }
+  } */
+  
+@media screen and (max-width: 993px) {
+    .review-modal-title-box {
+        padding-left: 3rem !important;
+    }
+  }

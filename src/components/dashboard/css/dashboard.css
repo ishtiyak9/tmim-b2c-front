@@ -1,0 +1,123 @@
+.dashboard-title {
+  font-size: 32px;
+  color: #303443;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.dashboard-input-look {
+  background: #ffffff !important;
+  /* border */
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  border: 1px solid #d5d5d5;
+  border-radius: 10px;
+}
+
+select-reservation-hh {
+  border: 1px solid #d5d5d5;
+  cursor: pointer;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.chart-header {
+  color: #303443;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+/* .chart-div {
+  height: 300px;
+} */
+
+.dashboard-content {
+  margin-top: 80px;
+}
+
+.active-quotation {
+  color: #5b93ff;
+}
+
+.total-reservation {
+  color: #4ca6a8;
+}
+
+.declined-quotaiton {
+  color: #ee734f;
+}
+
+.dashboard-card-header {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.dashboard-card-value {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  letter-spacing: 1px;
+}
+
+.dashboard-card-month {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.dashboard-reservation-dot {
+  margin-top: 10px;
+  width: 14px;
+  height: 14px;
+  background-color: #4ca6a8;
+  display: inline-block;
+  border-radius: 50%;
+  margin-bottom: -3px;
+  margin-right: 3px;
+}
+
+.dashboard-quatation-dot1 {
+  width: 14px;
+  height: 14px;
+  background-color: #5b93ff;
+  border-radius: 50%;
+  /* margin-right: 0.75rem; */
+}
+
+.dashboard-quatation-dot1-span {
+  font-size: 12px;
+}
+
+.dashboard-quatation-dot2 {
+  width: 14px;
+  height: 14px;
+  background-color: #f0c756;
+  border-radius: 50%;
+  /* margin-left: 1.5rem;
+  margin-right: 0.75rem; */
+}
+
+.dot-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.dashboard-select > select {
+  background: #ffffff;
+  border: 1px solid #d5d5d5;
+  border-radius: 10px;
+  padding: 0.3rem 16px !important;
+  margin-top: 0.5rem;
+}

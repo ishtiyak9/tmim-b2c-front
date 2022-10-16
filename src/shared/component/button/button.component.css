@@ -1,0 +1,88 @@
+button {
+  outline: #8d131e !important;
+}
+
+button:active {
+  outline: #8d131e !important;
+}
+
+button:focus {
+  outline: none;
+}
+
+.custom-btn {
+  background-color: #8d131e;
+  border: none;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 6px;
+  height: 45px;
+  min-width: 160px;
+}
+
+.tmm-btn {
+  color: white;
+  border: 2px solid #8d131e;
+}
+
+.tmm-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.custom-btn-outline {
+  background-color: white;
+  border: 2px solid #8d131e;
+  color: #8d131e;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 6px;
+  height: 48px;
+  min-width: 100px;
+  opacity: 0.6;
+}
+
+.tmm-btn-outline {
+  border: 2px solid #8d131e;
+}
+
+.tmm-btn-outline:hover {
+  background-color: #8d131e;
+  opacity: 1;
+  color: white;
+}
+
+.tmm-btn-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+/* .btn-effect {
+  transition: 0.2s all !important;
+  -webkit-transition: 0.2s all !important;
+  -moz-transition: 0.2s all !important;
+  -ms-transition: 0.2s all !important;
+  -o-transition: 0.2s all !important;
+}
+
+.btn-effect:active {
+  transform: scale(0.98);
+} */

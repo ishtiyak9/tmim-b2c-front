@@ -1,0 +1,283 @@
+.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.profileImageUploadButton {
+  position: relative;
+  border: 2px solid gray;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  line-height: 70px;
+  margin: auto;
+}
+
+.profileImage {
+  text-align: center;
+  margin: auto;
+}
+
+.profileImage .ant-upload {
+  border: none !important;
+}
+
+.upload-profile-photo-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.imageUploadButton {
+  position: relative;
+  border: 2px dashed gray;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  border-radius: 10%;
+  text-align: center;
+  font-size: 30px;
+  line-height: 70px;
+}
+
+#images {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.card {
+  /* padding-left: 30px; */
+  padding-right: 30px;
+}
+
+.update-profile-margin {
+  margin-top: 80px;
+}
+
+.label-profile-photo {
+  color: #303443;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  font-style: normal;
+}
+
+.label-text {
+  color: #303443;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  font-style: normal;
+}
+
+input[type="submit"] {
+  background: #8d131e;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* input[type="text"] {
+  padding-left: 0px;
+} */
+
+.field span {
+  width: 40px;
+  line-height: 45px;
+  text-align: center;
+}
+
+/* .content-top-margin {
+  margin-top: 75px;
+} */
+
+@media screen and (min-width: 720px) {
+  .content-top-margin {
+    margin-top: 75px;
+  }
+}
+
+.ant-tooltip-inner {
+  color: #000;
+  background-color: #fff;
+}
+
+.ant-tooltip-placement-bottom .ant-tooltip-arrow,
+.ant-tooltip-placement-bottomLeft .ant-tooltip-arrow,
+.ant-tooltip-placement-bottomRight .ant-tooltip-arrow {
+  border-bottom-color: #fff;
+}
+
+.ant-tooltip-arrow-content {
+  background-color: #fff !important;
+}
+
+.ant-upload-list-picture-card-container .ant-tooltip-inner {
+  display: none;
+}
+
+.profileImage .ant-upload.ant-upload-select-picture-card .ant-upload {
+  background-color: #fff !important;
+}
+
+.profileImage svg {
+  vertical-align: text-top !important;
+}
+/* .ant-upload-select-picture-card {
+  border-radius: 20% !important;
+}
+.ant-upload-list-item {
+  border-radius: 20% !important;
+} */
+
+.ant-upload-list-picture .ant-upload-list-item-error,
+.ant-upload-list-picture-card .ant-upload-list-item-error {
+  border-color: #dfdfdf;
+}
+
+.ant-upload.ant-upload-select-picture-card {
+  /* height: 80px; */
+  background-color: transparent;
+  /* width: 80px; */
+  border: 2px dashed #303443;
+  box-sizing: border-box;
+  border-radius: 5px;
+  /* margin-top: 1rem; */
+}
+
+.ant-upload.ant-upload-select-picture-card:hover {
+  border-color: #303443;
+}
+
+.ant-upload-list-picture-card .ant-upload-list-item-thumbnail,
+.ant-upload-list-picture-card .ant-upload-list-item-thumbnail img {
+  pointer-events: none !important;
+  /* position: absolute;
+  height: 8rem;
+  margin-bottom: 2rem;
+  object-fit: cover;
+  border-radius: 20px; */
+}
+
+/* .ant-upload-list-picture-card .ant-upload-list-item-info {
+  overflow: visible;
+} */
+
+/* .ant-upload-list-picture-card
+  .ant-upload-list-item-actions
+  .anticon-delete {
+  width: 3rem !important;
+} */
+
+.ant-upload-list-picture-card
+  .ant-upload-list-item-actions
+  .anticon-delete
+  svg {
+  fill: rgb(255, 255, 255);
+  /* position: relative;
+  bottom: 0.3rem;
+  left: 2.7rem; */
+  /* pointer-events: none !important; */
+}
+
+/* .ant-upload-list-item-error
+  .ant-upload-list-item-card-actions-btn {
+  background: url('../../../assets/icons/cross.svg')
+    no-repeat;
+  width: 2.8rem;
+  height: 3rem;
+  position: relative;
+  bottom: 0.7rem;
+  left: 3.3rem;
+} */
+
+/* .ant-upload-list-picture .ant-upload-list-item,
+.ant-upload-list-picture-card .ant-upload-list-item {
+  padding: 0;
+  margin-right: 0.75rem;
+} */
+
+/* .ant-upload-list-picture-card
+  .ant-upload-list-item-thumbnail
+  .anticon
+  svg {
+  fill: #ffffff !important;
+} */
+
+/* .ant-upload-list-item-thumbnail
+  .ant-upload-list-item-file
+  svg
+  path {
+  fill: red !important;
+} */
+
+.ant-upload-list-picture-card .ant-upload-list-item-thumbnail .anticon {
+  height: 50px;
+  width: 80px;
+  font-size: 30px;
+  padding: 10px 10px;
+  margin-left: 32px;
+  margin-top: 18%;
+}
+
+.ant-upload-list-item-thumbnail.ant-upload-list-item-file span {
+  background: url("../../../assets/icons/play.png") no-repeat;
+}
+
+.anticon.anticon-file path {
+  fill: rgba(0, 0, 0, 0) !important;
+}
+
+.ant-upload-list-picture-card
+  .ant-upload-list-item-file
+  + .ant-upload-list-item-name {
+  font-size: 10px;
+  color: #8d131e;
+}
+
+.ant-upload-list-picture-card .ant-upload-list-item-info::before {
+  display: none;
+}
+
+.ant-input-number-input {
+  background-color: #f7f7f8;
+}
+
+.ant-input-number-lg {
+  border-radius: 10px;
+}
+
+.ant-input-number-lg input {
+  border-radius: 10px;
+}
+
+.ant-input-number-lg {
+  background-color: #f7f7f8;
+}

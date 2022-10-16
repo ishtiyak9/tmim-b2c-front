@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 40px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8d131e;
+  border-radius: 40px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #8d131e;
+}
+
+.c-wrapper{
+  margin-right: 10px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.icon-style-sm {
+  margin-left: 0.8rem;
+  margin-top: 0.6rem;
+  margin-right: 0.4rem;
+  height: 24px;
+  width: 24px;
+}
+
+.ant-input-affix-wrapper,
+.ant-input {
+  background-color: #f7f7f8 !important;
+  /* border-radius: 8px !important; */
+}
+
+.field {
+  background-color: #ededff !important;
+}
+
+.ant-select-selector {
+  background-color: #f7f7f8 !important;
+  border-radius: 8px !important;
+}
+
+.dashboard-box-shadow {
+  background: #ffffff;
+  box-shadow: 0px 5px 15px rgba(243, 107, 107, 0.2);
+  border-radius: 14px;
+}
+
+.ant-table-row-level-0 {
+  box-shadow: 0px 3px 10px rgba(243, 107, 107, 0.15) !important;
+  border-radius: 10px !important;
+  margin-bottom: 0.5rem !important;
+  /* background-color: #ffffff; */
+}
+
+/* .ant-table-row .ant-table-row-level-0{
+  margin: 15px !important;
+} */
+
+.ant-table-row-level-0:hover {
+  background: #ffffff !important;
+  box-shadow: -1px 0px 8px rgba(243, 107, 107, 0.4) !important;
+  border-radius: 10px !important;
+  /* box-shadow: 0px 8px 25px rgba(243, 107, 107, 0.15) !important;; */
+}
+
+th {
+  background: #f1f4f9 !important;
+}
+
+.ant-table table {
+  border-spacing: 0px 10px !important;
+  padding-right: 15px !important;
+}
+
+.responsive-direction{
+  direction: rtl;
+}
+
+tr:first-child th:first-child {
+  border-top-left-radius: 0px !important;
+  bottom: 10 !important;
+}
+
+tr:first-child th:first-child {
+  border-start-start-radius: 10px !important;
+}
+
+tr:first-child th:last-child {
+  border-start-end-radius: 10px !important;
+}
+
+tr:last-child th:first-child {
+  border-end-start-radius: 10px !important;
+}
+
+tr:last-child th:last-child {
+  border-end-end-radius: 10px !important;
+}
+
+tr:hover td:first-child {
+  border-start-start-radius: 10px !important;
+}
+
+tr:hover td:last-child {
+  border-start-end-radius: 10px !important;
+}
+
+tr:hover td:first-child {
+  border-end-start-radius: 10px !important;
+}
+
+tr:hover td:last-child {
+  border-end-end-radius: 10px !important;
+}
+
+/* Row style Start */
+tr td:first-child {
+  border-start-start-radius: 10px !important;
+}
+
+tr td:last-child {
+  border-start-end-radius: 10px !important;
+}
+
+tr td:first-child {
+  border-end-start-radius: 10px !important;
+}
+
+tr td:last-child {
+  border-end-end-radius: 10px !important;
+}
+
+tr {
+  border-radius: 10px !important;
+}
+/* Row style end */
+tr:hover {
+  background: #ffffff !important;
+}
+
+.modal-content {
+  border-radius: 1rem !important;
+}
+
+.modal-header {
+  border-radius: 1rem 1rem 0 0 !important;
+}
+
+.ant-picker {
+  background-color: #f7f7f8 !important;
+  border-radius: 8px !important;
+}
+
+table:not([cellpadding]) td,
+table:not([cellpadding]) th {
+  padding: 0.6rem !important;
+}
+
+.rbc-date-cell {
+  margin: -5px 1px 10px 1px;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+  line-height: 24px !important;
+  font-size: 16px !important;
+}
+
+.MuiSelect-select.MuiSelect-select {
+  padding-right: 5px !important;
+}
+
+.rbc-header {
+  margin: auto;
+  padding: 9px 3px !important;
+}
+
+.rbc-off-range-bg {
+  background-color: white !important;
+  background-image: url("./assets/images/calendar-off-img.svg") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.rbc-month-view {
+  border-radius: 12px 12px 0px 0px;
+}
+
+.rbc-date-cell.rbc-current {
+  background-color: white;
+}
+
+.rbc-day-bg.rbc-today {
+  background-color: white;
+}
+
+.rbc-date-cell.rbc-now {
+  color: #ffffff;
+}
+
+.rbc-date-cell.rbc-now a {
+  color: #4ca6a8;
+  border-radius: 50%;
+  height: 36px;
+  padding: 6px;
+  background: #4ca6a8;
+  color: #ffffff;
+}
+
+.rbc-row-content {
+  margin-top: 1rem;
+}
+
+.rbc-row.rbc-month-header {
+  background-color: #f1f4f9;
+  height: 2.5rem;
+  text-align: center;
+  border-radius: 12px 12px 0px 0px;
+}
+
+/* .rbc-day-bg.rbc-off-range-bg {
+  background-color: #ffffff;
+} */
+
+.rbc-timeslot-group {
+  background-color: #ffffff;
+}
+
+.PrivateSwitchBase-input-6 {
+  display: none !important;
+}
+
+.MuiIconButton-label {
+  margin-left: -8px !important;
+}
+
+.create-reservation-modal-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.ant-form-item-control .ant-input-affix-wrapper-lg {
+  border-radius: 8px;
+}
+
+.ant-form-item-control textarea {
+  border-radius: 8px;
+}

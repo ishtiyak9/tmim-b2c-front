@@ -1,0 +1,176 @@
+.bar-icon {
+  color: black;
+}
+
+.sidebar-button:hover {
+  cursor: pointer;
+}
+
+.content-margin{
+  /* margin: 0px 20px; */
+  margin-left: 245px;
+  overflow: hidden;
+}
+
+.content-margin-right{
+  /* margin: 0px 20px; */
+  margin-right: 245px;
+  overflow: hidden;
+}
+
+.pie-height {
+  width: 100%;
+  height: 250px;
+}
+/* .reservation-checkbox:hover,
+.reservation-checkbox:visited {
+  border-color: none;
+} */
+
+@media screen and (max-width: 960px) {
+  .card-margin {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .content-margin{
+    margin-top: 45px;
+  }
+
+.content-margin-right{
+  margin-top: 45px;
+}
+}
+
+@media screen and (max-width: 310px) {
+  .content-margin{
+    /* margin-top: 85px; */
+  }
+}
+
+/* @media screen and (min-width: 960px) {
+  .content-margin{
+    margin-left: 0px;
+  }
+} */
+
+.show-navbar{
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  .content-margin{
+    margin-left: 0px;
+  }
+
+.content-margin-right{
+  margin-right: 0px;
+}
+  .sidebar-show-hide{
+    display: none;
+  }
+
+  .show-navbar{
+    display: block;
+  }
+
+  .display-header{
+    display: none;
+  }
+
+  .footer{
+    margin-left: 0px !important;
+  }
+}
+/* @media screen and (max-width: 980px) {
+  .sidebar-show-hide{
+    display: none;
+  }
+} */
+
+.icon-class {
+  width: 35px;
+  height: 35px;
+  background: #838385;
+  color: white;
+  line-height: 20px;
+  margin-top: 100px;
+  margin-left: 50%;
+  text-align: center;
+  font-size: 24px;
+  display: inline-block;
+}
+
+
+.top-navbar-margin{
+  margin-top: 65px
+}
+
+
+.topnav {
+  overflow: hidden;
+  border-bottom: 1px solid gray;
+  /* background-color: #333; */
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  /* background-color: #ddd; */
+  text-decoration: none;
+  color: black;
+}
+
+.topnav a.active {
+  /* background-color: #831e1d; */
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+}
+
+.active-nav-text{
+  color: #831e1d;
+}
+
+.modal-header .close{
+  margin: 0px !important;
+  padding: 0.5rem 0.5rem !important;
+}
+
+.nav-arrow-icon {
+  /* float: right !important; */
+  padding: 0px 0px 0px 5% !important;
+}

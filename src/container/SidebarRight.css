@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  /* color: #303443 !important; */
+}
+
+.sidebar-right{
+  position: fixed;
+  width: 245px !important;
+  height: 100vh;
+  margin-top: 60px;
+  padding-top: 10px;
+  padding-bottom: 125px;
+  overflow-y: auto;
+  margin-right: auto;
+  top: 0;
+  right: 0;
+  /* right: -250px; */
+  background: white;
+  transition: right 0.4s ease;
+  border: none;
+  border-left: 3px solid rgb(131, 27, 52, 0.1);
+  z-index: 99;
+}
+
+ul{
+  padding: 0px;
+}
+.sidebar-right .show{
+  right: 0px;
+}
+/* .sidebar .text{
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 65px;
+  text-align: center;
+  background: white;
+  letter-spacing: 1px;
+} */
+nav ul{
+  background: white;
+  color: #1b1b1b;
+  height: 100%;
+  width: 100%;
+  list-style: none;
+}
+
+ nav ul li{
+  line-height: 50px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  margin: 0px 5px;
+  display: block;
+  /* margin-right: 15px; */
+}
+/*
+nav ul li:last-child{
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+} */
+nav ul li a{
+  position: relative;
+  color: #303443;
+  text-decoration: none;
+  padding-right: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  display: block;
+  width: 100%;
+  border-right: 3px solid transparent;
+}
+/* nav ul li.active a{
+  color: cyan;
+  background: #8D131E;
+  border-right-color: cyan;
+} */
+nav ul li:hover{
+  /* background: #8D131E; */
+  border-radius: 6px;
+}
+
+nav ul li:hover .right-border {
+  /* background-color: #8D131E; */
+}
+
+nav ul li a:hover{
+
+  color: #303443;
+  text-decoration: none;
+}
+
+nav ul ul{
+  position: static;
+  display: none;
+}
+nav ul .feat-show.show{
+  display: block;
+}
+nav ul .serv-show.show1{
+  display: block;
+}
+nav ul ul li{
+  line-height: 42px;
+  border-top: none;
+}
+nav ul ul li a{
+  font-size: 14px;
+  color: #303443 !important;
+  padding-right: 10px;
+}
+nav ul li.active ul li a{
+  color: #303443;
+  border-right-color: transparent;
+}
+nav ul ul li a:hover{
+  /* color: #8D131E!important; */
+  border-radius: 6px;
+}
+
+nav ul ul li:hover {
+  background-color: #fff;
+  /* color: #8D131E; */
+  border-radius: 6px;
+}
+
+.selected span .text-color-white{
+  color: white !important;
+}
+
+.selected-text-color-white{
+  color: white !important;
+}
+
+nav ul li a span{
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 14px;
+  transition: transform 0.4s;
+}
+nav ul li a span.rotate{
+  transform: translateY(-50%) rotate(-180deg);
+}
+
+.right-border{
+	display: inline-block; 
+  width: 10px; 
+	margin-right: -23px;
+	border-radius: 6px;
+}
+
+.dropdown-right-border{
+	display: inline-block; 
+  width: 10px; 
+	margin-right: -23px;
+	border-radius: 6px;
+}
+
+.active-right-border{
+  background-color: #8D131E;
+  border-radius: 6px;
+  color: white;
+}
+
+.selected {
+  background: #8D131E;
+  color: white !important;
+  border-radius: 6px;
+  /* color: #1b1b1b; */
+}
+
+.dropdown-selected {
+  background: #fff;
+  color: #8D131E !important;
+  border-radius: 6px;
+  /* color: #1b1b1b; */
+}
+
+.circle-icon {
+  position: relative;
+  padding-top: 65px;
+}
+
+.circle-icon:hover{
+  /* cursor: pointer; */
+}
+
+.logout-icon{
+  position: relative;
+}
+
+.logout-icon{
+  cursor: pointer;
+}
+
+@media screen and (min-height: 1000px) {
+  .circle-icon-margin{
+    margin-top: 85px;
+  }
+}
+
+@media screen and (min-height: 1400px) {
+  .circle-icon-margin{
+    margin-top: 200px;
+  }
+}
+
+@media screen and (min-height: 1800px) {
+  .circle-icon-margin{
+    margin-top: 500px;
+  }
+}
+
+.arrow-icon-right{
+  float: left !important;
+  margin-top: 13px !important;
+}
+
+
+/* .content{
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%,-50%);
+  color: #202020;
+  z-index: -1;
+  text-align: center;
+}
+.content .header{
+  font-size: 45px;
+  font-weight: 600;
+}
+.content p{
+  font-size: 30px;
+  font-weight: 500;
+}
+ */

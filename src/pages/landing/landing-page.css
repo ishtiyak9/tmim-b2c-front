@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Kite+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kite+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gabriela&display=swap");
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 24rem 0;
+}
+
+.landing-container {
+  position: absolute;
+}
+
+.conatiner-main_info {
+  font-family: Kite One, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  margin: 0 1rem;
+}
+
+.landing-container .landing-container_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20.9rem;
+  height: 37.1rem;
+  background: #fbf7f7;
+  border: 2px solid #c59f81;
+}
+
+.landing-container p,
+h1 {
+  text-align: center;
+}
+.landing-container h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.landing-container h6 {
+  font-family: "Gabriela", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #c59f81;
+  margin-top: 0.5rem;
+}
+
+.landing-container .landing-info-text {
+  font-family: Gabriela, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Black */
+
+  color: #303443;
+}
+
+.landing-container u {
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+  margin-top: 0.75rem;
+}
+
+.landing-container .landing-container_top_img {
+  position: relative;
+  top: 100px;
+  left: -100px;
+}
+
+.landing-container .landing-container_bottom_img {
+  position: relative;
+  bottom: 100px;
+  right: -180px;
+}
+
+.landing-container .landing_container_top_leaf {
+  margin-left: -9rem;
+}
+
+.landing-container .top-crown {
+  margin-top: -2.5rem;
+}
+
+.landing-container .landing_container_bottom_leaf {
+  margin-left: 16rem;
+}
+
+.landing-container .bottom-calender {
+  margin-bottom: -1rem;
+}
